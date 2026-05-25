@@ -488,10 +488,10 @@ class SettingsWindow(ctk.CTkToplevel):
 
         ctk.CTkButton(
             self, text="✓   Save & Close",
-            width=210, height=46,
+            width=300, height=52,
             fg_color=PRIMARY, hover_color=DARK,
-            text_color=WHITE, corner_radius=23,
-            font=self._f(14, "bold"),
+            text_color=WHITE, corner_radius=26,
+            font=self._f(16, "bold"),
             command=self._save
         ).pack(pady=(10, 22))
 
